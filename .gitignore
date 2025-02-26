@@ -1,0 +1,22 @@
+# Next.js build output
+.next/
+out/
+
+# Node dependencies
+node_modules/
+
+# Environment variables
+.env*
+!.env.example
+
+# Firebase related files (optional)
+.firebase/
+
+# Lock files (optional)
+yarn.lock
+lexend\package-lock.json
+lexend\yarn.lock
+
+# Miscellaneous
+.DS_Store
+.vscode/
