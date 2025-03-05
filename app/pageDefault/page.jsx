@@ -1,5 +1,5 @@
 import Header2 from "@/components/headers/Header2";
-
+import Dashboard from "@/components/homes/home-2/dashboard";
 import Footer2 from "@/components/footers/Footer1";
 export const metadata = {
   title:
@@ -12,7 +12,9 @@ export default function page() {
     <>
       <div className="page-wrapper uni-body panel bg-white text-gray-900 dark:bg-gray-900 dark:text-gray-200 overflow-x-hidden bp-xs bp-sm bp-md bp-lg bp-xl bp-xxl dom-ready">
         <Header2 />
-        <div id="wrapper" className="wrap"></div>
+        <div id="wrapper" className="wrap">
+          <Dashboard/>
+        </div>
         <Footer2 />
       </div>
     </>
