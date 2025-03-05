@@ -1,31 +1,31 @@
 export const accordionItems = [
   {
     id: 1,
-    question: "Do I need to know about how to code?",
+    question: "How does this tool generate connection messages?",
     answer:
-      "Yes, you need to have a fair amount of knowledge in dealing with HTML/CSS as well as JavaScript in order to be able to use Lexend.",
+      "The tool scrapes profile data (such as name, job title, and interests) and uses AI to craft personalized connection requests.",
     controls: "uc-accordion-24",
     expanded: true,
   },
   {
     id: 2,
-    question: "Can I use it for commercial projects?",
+    question: " Can I customize the connection messages?",
     answer:
-      "Feel free to do so. Lexend does exist to evolve every commercial project. You can also use it to build stunning websites for your own clients (we won’t breathe a word).",
+      "Absolutely! You can set custom templates and adjust tone preferences to match your outreach style.",
     controls: "uc-accordion-26",
     expanded: false,
   },
   {
     id: 3,
-    question: "Can I use it for multiple projects?",
-    answer: "Definitely! Please use it however you like; we don’t limit it.",
+    question: " What’s the difference between the pricing tiers?",
+    answer: "Higher tiers offer more connection requests per month, advanced AI personalization, and CRM integrations.",
     controls: "uc-accordion-28",
     expanded: false,
   },
   {
     id: 4,
-    question: "Can I use this to create and sell a product?",
-    answer: "Do not ever consider doing it.",
+    question: " Do I need technical skills to use this tool?",
+    answer: "No, it's user-friendly! Simply enter LinkedIn URLs, and the tool generates messages for you.",
     controls: "uc-accordion-30",
     expanded: false,
   },
