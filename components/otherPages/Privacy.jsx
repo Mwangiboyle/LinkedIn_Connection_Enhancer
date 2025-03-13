@@ -11,19 +11,16 @@ export default function Privacy() {
             </div>
           </header>
           <div className="page-content panel fs-6 md:fs-5">
-            <p>
-              It is a long established fact that a reader will be distracted by
-              the readable content of a page when looking at its layout. The
-              point of using Lorem Ipsum is that it has a more-or-less normal
-              distribution of letters, as opposed to using 'Content here,
-              content here', making it look like readable English.
+            <p>At Connexcite, we are committed to protecting your privacy. 
+              This policy explains how we collect, use and safeguard your data when you use our services. 
+              By using Connexcite, you agree to this Privacy Policy.
             </p>
             <p>
-              Many desktop publishing packages and web page editors now use
-              Lorem Ipsum as their default model text, and a search for 'lorem
-              ipsum' will uncover many web sites still in their infancy. Various
-              versions have evolved over the years, sometimes by accident,
-              sometimes on purpose (injected humour and the like).
+            We collect the following types of information to provide and improve our services:
+•	Profile Data: LinkedIn profile details (e.g., roles, interests) analysed by our AI for personalised connection requests 
+•	Usage Data: Information about how you interact with Connexcite (e.g., messages sent, features used).
+•	Payment Data: Securely processed via Stripe; we do not store payment details 
+.
             </p>
             <p>
               All the Lorem Ipsum generators on the Internet tend to repeat
@@ -88,7 +85,7 @@ export default function Privacy() {
             </p>
           </div>
           <div className="page-footer panel">
-            <p className="fs-7 opacity-60 m-0">Last updated: 27 Oct, 2024</p>
+            <p className="fs-7 opacity-60 m-0">Last updated: 1 Apr, 2025</p>
           </div>
         </div>
       </div>
