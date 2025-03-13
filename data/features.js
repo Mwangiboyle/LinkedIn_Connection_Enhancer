@@ -33,17 +33,17 @@ export const features = [
     id: 4,
     imgSrc: "/assets/images/template/feature-01.svg",
     imgAlt: "Share tools quickly and confidently in minutes",
-    title: "Share tools quickly and confidently in minutes",
+    title: "AI-Tuned Introductions: 3x Acceptance Rates with Precision Personalization",
     description:
-      "This powerful tool eliminates the need to leave Salesforce to get things done as I can create a custom proposal with dynamic pricing tables. You can also customize your own dynamic versions.",
+      "Our AI analyzes LinkedIn profiles, roles and interests to craft personalized connection requests that stand out with authentic human insight. Say goodbye to generic 'I'd like to connect' messages and experience up to 3× higher acceptance rates with outreach that feels genuinely personal, purposeful and true to your professional voice.",
   },
   {
     id: 5,
     imgSrc: "/assets/images/template/feature-02.svg",
     imgAlt: "Connect every part of your entire business",
-    title: "Connect every part of your entire business",
+    title: "Tone Customization Speak Their Language, Literally and Figuratively ",
     description:
-      "Keep data consistent, with native CRM integrations that streamline your entire Tool workflow.",
+      "Adjust your message’s tone to match your audience—formal for executives, casual for creatives, persuasive for sales. .",
     linkText: "See all integrations",
     linkHref: "#",
   },
@@ -51,10 +51,9 @@ export const features = [
     id: 6,
     imgSrc: "/assets/images/template/feature-03.svg",
     imgAlt: "Maintain compliance and control your apps",
-    title: "Maintain compliance and control your apps",
+    title: "Global Reach, Zero Barriers Connect Confidently Across Borders",
     description:
-      "Improve security and trust with built-in legally binding e-Signatures. Create pre-approved templates, content blocks and lock all legal information to prevent costly mistakes.",
-  },
+ "Auto-translate messages into 5+ languages, including Spanish, French, and German." },
 ];
 
 export const features2 = [
@@ -94,8 +93,12 @@ export const features3 = [
     imgSrc: "/assets/images/template/feature-01.svg",
     altText: "Share tools quickly and confidently in minutes",
     step: "01.",
-    title: "Share tools quickly and confidently in minutes",
-    description: `This powerful tool eliminates the need to leave Salesforce to get things done as I can create a custom proposal with dynamic pricing tables. You can also customize your own dynamic versions.`,
+    title: "AI-Tuned Introductions: 3x Acceptance Rates with Precision Personalization",
+    description: `Our AI analyzes LinkedIn profiles, roles and interests to craft personalized connection 
+requests that stand out with authentic human insight. Say goodbye to generic 'I'd like to 
+connect' messages and experience up to 3× higher acceptance rates with outreach that 
+feels genuinely personal, purposeful and true to your professional voice. 
+`,
     testimonial: {
       quote: `“Most of our time used to be taken up by administrative work whereas now we can focus on building out programs to help our employees.”`,
       imgSrc: "/assets/images/avatars/01.png",
@@ -333,36 +336,27 @@ export const features6 = [
     id: 1,
     imgSrc: "/assets/images/template/feature-01.svg",
     imgAlt: "Share tools quickly and confidently in minutes",
-    title: "Share tools quickly and confidently in minutes",
+    title: "AI-Tuned Introductions: 3x Acceptance Rates with Precision Personalization",
     description:
-      "This powerful tool eliminates the need to leave Salesforce to get things done as I can create a custom proposal with dynamic pricing tables. You can also customize your own dynamic versions.",
+    "Our AI analyzes LinkedIn profiles, roles and interests to craft personalized connection requests that stand out with authentic human insight. Say goodbye to generic 'I'd like to connect' messages and experience up to 3× higher acceptance rates with outreach that feels genuinely personal, purposeful and true to your professional voice.",
     link: null,
   },
   {
     id: 2,
     imgSrc: "/assets/images/template/feature-02.svg",
     imgAlt: "Connect every part of your entire business",
-    title: "Connect every part of your entire business",
+    title: "Tone Customization Speak Their Language, Literally and Figuratively ",
     description:
-      "Keep data consistent, with native CRM integrations that streamline your entire Tool workflow.",
+      "Adjust your message’s tone to match your audience—formal for executives, casual for creatives, persuasive for sales.",
     link: { text: "See all integrations", href: "#" },
   },
   {
     id: 3,
     imgSrc: "/assets/images/template/feature-03.svg",
     imgAlt: "Maintain compliance and control your apps",
-    title: "Maintain compliance and control your apps",
+    title: "Global Reach, Zero Barriers Connect Confidently Across Borders",
     description:
-      "Improve security and trust with built-in legally binding e-Signatures. Create pre-approved templates, content blocks, and lock all legal information to prevent costly mistakes.",
-    link: null,
-  },
-  {
-    id: 4,
-    imgSrc: "/assets/images/template/feature-04.svg",
-    imgAlt: "Review quickly and confidently",
-    title: "Review quickly and confidently",
-    description:
-      "Get real-time access to approvals, comments, and version tracking. Smart features like variables and conditional logic help you eliminate Tool errors.",
+      "Auto-translate messages into 5+ languages, including Spanish, French, and German.",
     link: null,
   },
 ];

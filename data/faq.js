@@ -1,39 +1,47 @@
 export const accordionItems = [
   {
     id: 1,
-    question: "How does this tool generate connection messages?",
+    question: " How does Connexcite’s AI improve LinkedIn connection acceptance rates?",
     answer:
-      "The tool scrapes profile data (such as name, job title, and interests) and uses AI to craft personalized connection requests.",
+      "Our AI analyzes profiles, roles, and interests to craft personalized requests that feel human—not robotic. This approach has been shown to 3x acceptance rates compared to generic messages",
     controls: "uc-accordion-24",
     expanded: true,
   },
   {
     id: 2,
-    question: " Can I customize the connection messages?",
+    question: "What languages does Connexcite support for auto-translation?",
     answer:
-      "Absolutely! You can set custom templates and adjust tone preferences to match your outreach style.",
+      "Messages auto-translate into English, Spanish, French, German, and more. The AI also adapts tone (formal/casual) to resonate locally ",
     controls: "uc-accordion-26",
     expanded: false,
   },
   {
     id: 3,
-    question: " What’s the difference between the pricing tiers?",
-    answer: "Higher tiers offer more connection requests per month, advanced AI personalization, and CRM integrations.",
+    question: "Can I customize the tone of my connection requests?",
+    answer: "Yes! Choose from formal, casual, persuasive, or friendly tones to match your audience’s preferences ",
     controls: "uc-accordion-28",
     expanded: false,
   },
   {
     id: 4,
-    question: " Do I need technical skills to use this tool?",
-    answer: "No, it's user-friendly! Simply enter LinkedIn URLs, and the tool generates messages for you.",
+    question: "How does the Freemium plan differ from paid tiers?",
+    answer: "Freemium offers one-time connection requests (125 characters). Silver/Gold provide higher limits (200–300 characters) and monthly quotas, while Platinum unlocks voice/video scripts and analytics",
     controls: "uc-accordion-30",
     expanded: false,
   },
   {
     id: 5,
-    question: "What is your refund policy?",
+    question: "Do I need prior experience to use Connexcite?",
     answer:
-      "We understand the importance of customer satisfaction and we strive to provide the best products and services. However, please note that due to the nature of our products and services, we do not offer refunds after a purchase has been made.",
+      "No! Our intuitive interface is designed for professionals of all skill levels—no coding or AI expertise required.",
+    controls: "uc-accordion-32",
+    expanded: false,
+  },
+  {
+    id: 6,
+    question: "How do I cancel or modify my subscription?",
+    answer:
+      "Manage your subscription anytime via the dashboard. Cancelations are processed at the end of your billing cycle.",
     controls: "uc-accordion-32",
     expanded: false,
   },
