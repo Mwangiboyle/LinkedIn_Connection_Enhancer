@@ -2,27 +2,9 @@
 import Link from "next/link";
 
 export default function Signup2() {
-    const handleGoogleSignUp = async () => {
-        try {
-            const response = await fetch("https://your-render-app-url/auth/google", {
-                method: "POST",  // Send a POST request
-                headers: {
-                    "Content-Type": "application/json",
-                },
-            });
-    
-            if (response.ok) {
-                const data = await response.json();
-                console.log("Google OAuth initiated:", data);
-                // Redirect the user to the Google OAuth URL
-                window.location.href = data.redirect_url;  // Assuming the backend returns a redirect URL
-            } else {
-                const error = await response.json();
-                console.error("Failed to initiate Google OAuth:", error);
-            }
-        } catch (error) {
-            console.error("Error during Google OAuth:", error);
-        }
+    const handleGoogleSignUp = () => {
+        // Redirect to your FastAPI backend's Google OAuth endpoint
+        window.location.href = "https://connecxite-backend.onrender.com//auth/google";
     };
 
     const handleEmailSignUp = async (e) => {
@@ -35,7 +17,7 @@ export default function Signup2() {
         };
 
         try {
-            const response = await fetch("https://connecxite-backend.onrender.com/signup", {
+            const response = await fetch("https://connecxite-backend.onrender.com//signup", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
