@@ -2,6 +2,11 @@
 import Link from "next/link";
 
 export default function Signup2() {
+  const handleGoogleSignUp = () => {
+    // Redirect to Google OAuth URL (placeholder for now)
+    window.location.href = "https://your-fastapi-backend.com/auth/google";
+  };
+
   return (
     <div className="section py-6 sm:py-9">
       <div className="container max-w-xl">
@@ -63,6 +68,19 @@ export default function Signup2() {
                 Create an account
               </button>
             </form>
+
+            {/* Add the Google Sign-Up Button */}
+            <button
+              onClick={handleGoogleSignUp}
+              className="btn btn-outline-primary btn-md mt-2 w-full flex items-center justify-center gap-2"
+            >
+              <img
+                src="https://fonts.gstatic.com/s/i/productlogos/googleg/v6/24px.svg"
+                alt="Google Logo"
+                className="w-5 h-5"
+              />
+              Sign up with Google
+            </button>
           </div>
           <p>
             Already have an account?
