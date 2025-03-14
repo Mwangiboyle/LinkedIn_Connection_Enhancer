@@ -91,13 +91,13 @@ export const features3 = [
   {
     id: 1,
     imgSrc: "/assets/images/template/feature-01.svg",
-    altText: "Share tools quickly and confidently in minutes",
+    altText: "AI-Tuned Introductions: 3x Acceptance Rates with Precision Personalization",
     step: "01.",
-    title: "AI-Tuned Introductions: 3x Acceptance Rates with Precision Personalization",
+    title: "Turn LinkedIn Profiles into Meaningful Connections—and Connections into Conversions—through Hyper-Personalized Automation. ",
     description: `Our AI analyzes LinkedIn profiles, roles and interests to craft personalized connection 
 requests that stand out with authentic human insight. Say goodbye to generic 'I'd like to 
 connect' messages and experience up to 3× higher acceptance rates with outreach that 
-feels genuinely personal, purposeful and true to your professional voice. 
+feels genuinely personal, purposeful and true to your professional voice.
 `,
     testimonial: {
       quote: `“Most of our time used to be taken up by administrative work whereas now we can focus on building out programs to help our employees.”`,
@@ -111,8 +111,8 @@ feels genuinely personal, purposeful and true to your professional voice.
     imgSrc: "/assets/images/template/feature-02.svg",
     altText: "Connect every part of your entire business",
     step: "02.",
-    title: "Connect every part of your entire business",
-    description: `Keep data consistent, with native CRM integrations that streamline your entire Tool workflow.`,
+    title: "Tone Customization Speak Their Language, Literally and Figuratively",
+    description: `Adjust your message’s tone to match your audience—formal for executives, casual for creatives, persuasive for sales.`,
     link: {
       href: "#",
       text: "See all integrations",
@@ -129,8 +129,8 @@ feels genuinely personal, purposeful and true to your professional voice.
     imgSrc: "/assets/images/template/feature-03.svg",
     altText: "Maintain compliance and control your apps",
     step: "03.",
-    title: "Maintain compliance and control your apps",
-    description: `Improve security and trust with built-in legally binding e-Signatures. Create pre-approved templates, content blocks and lock all legal information to prevent costly mistakes.`,
+    title: "Global Reach, Zero Barriers Connect Confidently Across Borders",
+    description: `Auto-translate messages into 5+ languages, including Spanish, French, and German.`,
     testimonial: {
       quote: `“This powerful tool eliminates the need to leave Salesforce to get things done.”`,
       imgSrc: "/assets/images/avatars/04.png",

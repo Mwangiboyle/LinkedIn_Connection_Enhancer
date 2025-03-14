@@ -8,9 +8,9 @@ import Contact2 from "@/components/innerpages/Contact2";
 import ContactLinks2 from "@/components/innerpages/ContactLinks2";
 export const metadata = {
   title:
-    "Contact 2 || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Contact || Connecxite- Turn LinkedIn Outreach into Opportunities with AI-Driven Human Connection.",
   description:
-    "Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Connecxite- Your linkedin connection assistance",
 };
 export default function ContactPage2() {
   return (

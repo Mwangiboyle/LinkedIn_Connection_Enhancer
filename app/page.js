@@ -1,9 +1,9 @@
 import Home2 from "./(homes)/home-2/page";
 export const metadata = {
   title:
-    "Connecxite your linkedin connection assistance",
+    "Home || Connecxite- Turn LinkedIn Outreach into Opportunities with AI-Driven Human Connection.",
   description:
-    "Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Connecxite- Your linkedin connection assistance",
 };
 export default function HomePage2() {
   return (

@@ -8,9 +8,9 @@ import Brands from "@/components/common/Brands";
 import Blogs from "@/components/homes/home-2/Blogs";
 export const metadata = {
   title:
-    "Contact 1 || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    " Contact || Connecxite- Turn LinkedIn Outreach into Opportunities with AI-Driven Human Connection.",
   description:
-    "Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Connecxite- Your linkedin connection assistance",
 };
 export default function ContactPage() {
   return (

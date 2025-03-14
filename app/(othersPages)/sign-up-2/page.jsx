@@ -4,9 +4,9 @@ import Footer2 from "@/components/footers/Footer1";
 import Signup2 from "@/components/otherPages/Signup2";
 export const metadata = {
   title:
-    "Signup 2 || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Sign Up 2 || Connecxite- Turn LinkedIn Outreach into Opportunities with AI-Driven Human Connection.",
   description:
-    "Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Connecxite- Your linkedin connection assistance",
 };
 export default function SignupPage2() {
   return (

@@ -8,9 +8,9 @@ import Cta from "@/components/innerpages/features/Cta";
 import Brands2 from "@/components/common/Brands";
 export const metadata = {
   title:
-    "Features || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Features || Connecxite- Turn LinkedIn Outreach into Opportunities with AI-Driven Human Connection.",
   description:
-    "Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Connecxite- Your linkedin connection assistance",
 };
 export default function FeaturesPage() {
   return (
