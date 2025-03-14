@@ -1,6 +1,12 @@
 "use client";
 import Link from "next/link";
+
 export default function SignIn2() {
+  const handleGoogleSignIn = () => {
+    // Redirect to Google OAuth URL (placeholder for now)
+    window.location.href = "https://your-fastapi-backend.com/auth/google";
+  };
+
   return (
     <div className="section py-6 sm:py-9">
       <div className="container max-w-xl">
@@ -45,6 +51,19 @@ export default function SignIn2() {
                 Log in
               </button>
             </form>
+
+            {/* Add the Google Sign-In Button */}
+            <button
+              onClick={handleGoogleSignIn}
+              className="btn btn-outline-primary btn-md mt-2 w-full flex items-center justify-center gap-2"
+            >
+              <img
+                src="https://fonts.gstatic.com/s/i/productlogos/googleg/v6/24px.svg"
+                alt="Google Logo"
+                className="w-5 h-5"
+              />
+              Sign in with Google
+            </button>
           </div>
           <p>
             Have no account yet?
