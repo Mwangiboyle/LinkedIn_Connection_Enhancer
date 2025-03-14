@@ -11,9 +11,9 @@ import Pricing from "@/components/common/Pricing";
 import React from "react";
 export const metadata = {
   title:
-    "Home 2 || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Home || Connecxite- Turn LinkedIn Outreach into Opportunities with AI-Driven Human Connection.",
   description:
-    "Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Connecxite- Your linkedin connection assistance",
 };
 export default function HomePage2() {
   return (

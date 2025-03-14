@@ -6,9 +6,9 @@ import BreadCumb from "@/components/blog/BreadCumb";
 import Blogs4 from "@/components/blog/Blogs4";
 export const metadata = {
   title:
-    "Blog Author || Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Blog Author || Connecxite- Turn LinkedIn Outreach into Opportunities with AI-Driven Human Connection.",
   description:
-    "Lexend - Full-featured, professional-looking software, saas and startup nextjs template.",
+    "Connecxite- Your linkedin connection assistance",
 };
 export default function BlogAuthorPage({ params }) {
   const author = params.author.split("%20").join(" ");

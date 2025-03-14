@@ -15,74 +15,79 @@ export default function Privacy() {
               This policy explains how we collect, use and safeguard your data when you use our services. 
               By using Connexcite, you agree to this Privacy Policy.
             </p>
+            <h3 className="h4 md:h3 mt-3 lg:mt-6 mb-2">
+            1. Information We Collect.
+            </h3>
             <p>
             We collect the following types of information to provide and improve our services:
-•	Profile Data: LinkedIn profile details (e.g., roles, interests) analysed by our AI for personalised connection requests 
-•	Usage Data: Information about how you interact with Connexcite (e.g., messages sent, features used).
-•	Payment Data: Securely processed via Stripe; we do not store payment details 
-.
             </p>
             <p>
-              All the Lorem Ipsum generators on the Internet tend to repeat
-              predefined chunks as necessary, making this the first true
-              generator on the Internet. It uses a dictionary of over 200 Latin
-              words, combined with a handful of model sentence structures, to
-              generate Lorem Ipsum which looks reasonable. The generated Lorem
-              Ipsum is therefore always free from repetition, injected humour,
-              or non-characteristic words etc.
+            •	Profile Data: LinkedIn profile details (e.g., roles, interests) analysed by our AI for personalised connection requests 
+            </p>
+            <p>
+            •	Usage Data: Information about how you interact with Connexcite (e.g., messages sent, features used).
+            </p>
+            <p>
+            •	Payment Data: Securely processed via Stripe; we do not store payment details.
             </p>
             <h3 className="h4 md:h3 mt-3 lg:mt-6 mb-2">
-              Determination of personal information of users
+              2. How We Use Your Data.
             </h3>
-            <ul className="list list-bullets">
+            <p>
+            Your data is used to:
+            </p>
+            <ul className="uk-list uk-list-decimal uk-margin-medium@m">
               <li>
-                All the Lorem Ipsum generators on the Internet tend to repeat
-                predefined chunks as necessary, making this the first true
-                generator on the Internet.
+                Comply with Legal Obligations: Ensure adherence to GDPR, CCPA and LinkedIn’s policies
               </li>
               <li>
-                It uses a dictionary of over 200 Latin words, combined with a
-                handful of model sentence structures, to generate Lorem Ipsum
-                which looks reasonable. The generated Lorem Ipsum is therefore
-                always free from repetition, injected humour, or
-                non-characteristic words etc.
+               Improve Services: Analyze anonymized data to enhance our algorithms and user experience .
               </li>
               <li>
-                There are many variations of passages of Lorem Ipsum available,
-                but the majority have suffered alteration in some form, by
-                injected humour, or randomised words which don't look even
-                slightly believable.
+              Personalize Outreach: Craft AI-tuned introductions and follow-ups that resonate with your audience.
               </li>
             </ul>
             <h3 className="h4 md:h3 mt-3 lg:mt-6 mb-2">
-              Reasons for collecting and processing user personal information
+              3. Data Sharing & Security
             </h3>
             <ul className="uk-list uk-list-decimal uk-margin-medium@m">
               <li>
-                It is a long established fact that a reader will be distracted
-                by the readable content of a page when looking at its layout.
-                The point of using Lorem Ipsum is that it has a more-or-less
-                normal distribution of letters.
+              	Third Parties: We do not sell, rent, or share your data with third parties, except as required for service delivery (e.g., Stripe for payments)
               </li>
               <li>
-                All the Lorem Ipsum generators on the Internet tend to repeat
-                predefined chunks as necessary, making this the first true
-                generator on the Internet.
-              </li>
-              <li>
-                It has survived not only five centuries, but also the leap into
-                electronic typesetting, remaining essentially unchanged.
+              	Security Measures: Data is encrypted and stored securely to prevent unauthorized access.
               </li>
             </ul>
-            <p>
-              All generators on the Internet tend to repeat predefined chunks as
-              necessary, making this the first true generator on the Internet.
-              It uses a dictionary of over 200 Latin words, combined with a
-              handful of model sentence structures, to generate Lorem Ipsum
-              which looks reasonable. The generated Lorem Ipsum is therefore
-              always free from repetition, injected humour, or
-              non-characteristic words etc.
-            </p>
+            <h3 className="h4 md:h3 mt-3 lg:mt-6 mb-2">
+              4. User Rights.
+            </h3>
+            <ul className="uk-list uk-list-decimal uk-margin-medium@m">
+              <li>
+                Access: Request a copy of your personal data.
+              </li>
+              <li>
+                Correction: Update inaccurate or incomplete information.
+              </li>
+              <li>
+              	Deletion: Request removal of your data from our systems.
+              </li>
+            </ul>
+            <h3 className="h4 md:h3 mt-3 lg:mt-6 mb-2">
+              5. Cookies and Tracking.
+            </h3>
+            <ul>
+              <li>
+              We use cookies to enhance your experience and analyze site usage. You can manage cookie preferences in your browser settings.
+              </li>
+            </ul>
+            <h3 className="h4 md:h3 mt-3 lg:mt-6 mb-2">
+              6. Changes to This Policy.
+            </h3>
+            <ul>
+              <li>
+              We may update this Privacy Policy periodically. Changes will be posted here and continued use implies acceptance.
+              </li>
+            </ul>
           </div>
           <div className="page-footer panel">
             <p className="fs-7 opacity-60 m-0">Last updated: 1 Apr, 2025</p>

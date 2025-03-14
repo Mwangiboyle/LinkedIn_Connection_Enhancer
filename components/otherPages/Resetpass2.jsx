@@ -39,7 +39,7 @@ export default function Resetpass2() {
           </div>
           <p className="mt-2 sm:m-0">
             Remember your password?
-            <Link className="uc-link" href={`/sign-in-2`}>
+            <Link className="uc-link" href={`/sign-in`}>
               Sign in
             </Link>
           </p>

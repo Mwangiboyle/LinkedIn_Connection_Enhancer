@@ -82,7 +82,7 @@ export default function Cta() {
             >
               <h2 className="h3 sm:h1 xl:display-6 m-0">
                 Get started with <br />
-                Lexend today
+                Connecxite today
               </h2>
               <p className="fs-6 sm:fs-5 text-dark dark:text-white text-opacity-70 mt-1 lg:mt-2">
                 With native CRM integrations that streamline your entire Tool
@@ -110,7 +110,7 @@ export default function Cta() {
                 </div>
               </form>
               <p className="fs-7 text-dark dark:text-white text-opacity-70">
-                14-day trial, no credit card required.
+                free trial, no credit card required.
               </p>
             </div>
           </div>
