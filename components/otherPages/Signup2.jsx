@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Signup2() {
     const handleGoogleSignUp = () => {
         // Redirect to your FastAPI backend's Google OAuth endpoint
-        window.location.href = "https://adaptable-freedom-production.up.railway.app/google";
+        window.location.href = "https://adaptable-freedom-production.up.railway.app/auth/google";
     };
 
     const handleEmailSignUp = async (e) => {
