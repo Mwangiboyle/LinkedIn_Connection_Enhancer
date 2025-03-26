@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Signup2() {
     const handleGoogleSignUp = () => {
         // Redirect to your FastAPI backend's Google OAuth endpoint
-        window.location.href = "https://connecxite-backend.onrender.com/auth/google";
+        window.location.href = "https://adaptable-freedom-production.up.railway.app/google";
     };
 
     const handleEmailSignUp = async (e) => {
@@ -17,7 +17,7 @@ export default function Signup2() {
         };
 
         try {
-            const response = await fetch("https://connecxite-backend.onrender.com/signup", {
+            const response = await fetch("https://adaptable-freedom-production.up.railway.app/signup", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
